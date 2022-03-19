@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.register{
+	width:473.83px;
+	Height:634.3px;
+	position: absolute;
+	left: 33.55%;
+	right:33.55%;
+	top: 5%;
+	bottom: 22.99%;
+	border: 1px solid #BDBDBD;
+	box-sizing: border-box;
+	border-radius: 24px;
+}
+.dev-logo{
+	position: absolute;
+	left: 58.57px;
+	top: 48.42px;
+}
+#join{
+	Width: 318.88px;
+	Height: 50px;
+	position: absolute;
+	left: 58.57px;
+	right: 93.89px;
+	top: 93.89px;
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: -0.035em;
+	color: #333333;
+}
+#master{
+	position: absolute;
+	left:58.57px;
+	top:158.39px;
+	right:96.38px;
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: -0.035em;
+	color: #333333;
+}
+#email{
+	width:356.48px;
+	Height:48px;
+	position: absolute;
+	left:58.57px;
+	right: 58.75px;
+	top: 259.05px;
+	border: 1px solid #BDBDBD;
+	border-radius: 8px;
+	padding: 13px 0px 13px 46.89px;
+}
+#pwd{
+	position: absolute;
+	left:58.57px;
+	right: 58.75px;
+	top: 321.55px;
+	border: 1px solid #BDBDBD;
+	border-radius: 8px;
+	padding: 13px 0px 13px 46.89px;
+}
+.btn-submit-register{
+	width:356.48px;
+	height:38px;
+	position: absolute;
+	left:58.57px;
+	right: 58.75px;
+	top: 392.06px;
+	bottom: 41.9%;
+	border:none;
+	background: #2F80ED;
+	border-radius: 8px;
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: -0.035em;
+	color: #FFFFFF;
+}
+#or{
+	position: absolute;
+	left: 127.92px;
+	right: 127.92px;
+	top:461.64px;
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	/* identical to box height */
+	letter-spacing: -0.035em;
+	color: #828282;
+}
+.other-option{
+	display: flex;
+	column-count:4;
+	align-items: center;
+	column-gap: 20.93px;
+	margin:503.16px 122.25px 0 120.8px;
+}
+.other-option div{
+	width:42px;
+	height: 42px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+}
+#google{background:url('./Google.svg');background-size: cover;}
+#facebook{background:url('./Facebook.svg');background-size: cover;}
+#twitter{background:url('./Twitter.svg');background-size: cover;}
+#github{background:url('./Gihub.svg');background-size: cover;}
+
+#p-login{
+	position: absolute;
+	left:155.92px;
+	right:155.92px;
+	top:572.23px;
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: -0.035em;
+	color: #828282;
+}
+#p-login a{
+	text-decoration: none;
+	color: #2F80ED;
+}
+.login{
+	width:473.83px;
+	Height:544.37px;
+	position: absolute;
+	left: 33.55%;
+	right:33.55%;
+	top: 5%;
+	bottom: 22.99%;
+	border: 1px solid #BDBDBD;
+	box-sizing: border-box;
+	border-radius: 24px;
+}
+#h6-login{
+	position: absolute;
+	left:58.57px;
+	top: 93.88px;
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	/* identical to box height */
+	letter-spacing: -0.035em;
+	color: #333333;
+}
+.hidden{
+	display: none;
+}

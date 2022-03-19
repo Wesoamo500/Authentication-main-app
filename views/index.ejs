@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./index.css" rel="stylesheet"/>
+    <script src="./index.js" defer></script>
+    <title>Devchallenges</title>
+  </head>
+  <body>
+    <form class="register" action="/" method="post">
+      <img src="./devchallenges-light.svg" alt="dev-logo" class="dev-logo"/>
+      <h6 id="join">Join thousands of learners from around the world</h6>
+      <p id="master">Master web development by making real-life projects. There are multiple paths for you to choose</p>
+      <label for="email"></label>
+      <input type="email" id="email" placeholder="Email" name="email"/>
+      <label for="pwd"></label>
+      <input type="password" id="pwd" placeholder="Password" name="password"/>
+      <button class="btn-submit-register" type="submit">Start coding now</button>
+      <p id="or">or continue with these social profile</p>
+      <div class="other-option">
+        <div id="google"></div>
+        <div id="facebook"></div>
+        <div id="twitter"></div>
+        <div id="github"></div>
+      </div>
+      <p id="p-login">Already a member? <a id="mv-login" href="">Login</a></p>
+    </form>
+    <form class="login hidden" action="/" method="post">
+      <img src="./devchallenges-light.svg" alt="dev-logo" class="dev-logo"/>
+      <h6 id="h6-login">Login</h6>
+      <label for="email"></label>
+      <input type="email" id="email" placeholder="Email"  name="email" style="top: 169.12px;"/>
+      <label for="pwd"></label>
+      <input type="password" id="pwd" placeholder="Password" name="password" style="top: 231.62px;"/>
+      <button class="btn-submit-register" type="submit" style="top:302.13px"></button>
+      <p id="or" style="top:371.71px">or continue with these social profile</p>
+      <div class="other-option" style="margin:413.23px 122.25px 0 120.8px;">
+        <div id="google"></div>
+        <div id="facebook"></div>
+        <div id="twitter"></div>
+        <div id="github"></div>
+      </div>
+      <p id="p-login" style="top:482.3px">Don't have an account yet? <a id="mw-register" href="">Register</a></p>
+    </form>
+  </body>
+</html>
